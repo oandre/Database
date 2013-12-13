@@ -329,5 +329,14 @@ abstract class ezcDbHandler extends PDO
         }
         return $identifier;
     }
+    
+    public function getTransactionNestingLevel() {
+        return $this->transactionNestingLevel;
+    }
+
+    public function setTransactionNestingLevel($transactionNestingLevel) {
+        $this->transactionNestingLevel = $transactionNestingLevel;
+    }
+
 }
 ?>
