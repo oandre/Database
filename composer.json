@@ -46,9 +46,9 @@
         ]
     },
     "description": "A lightweight database layer on top of PHP's PDO that allows you to utilize a database without having to take care of differences in SQL dialects.",
-    "homepage": "https://github.com/zetacomponents",
+    "homepage": "https://github.com/oandre",
     "license": "Apache-2.0",
-    "name": "zetacomponents/database",
+    "name": "oandre/database",
     "type": "library",
         "require": {
             "zetacomponents/base": "*"
